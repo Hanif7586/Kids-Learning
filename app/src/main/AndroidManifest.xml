@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hanif">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hanif"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChaduteceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GhumparaniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LotonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HattitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Bakbakummactivity"
+            android:exported="false" />
+        <activity
+            android:name=".AyayChadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AtagaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AyreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BanjonbonnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SorbonnoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BanglaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnimalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KobitaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FruitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JemitiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FlowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CountryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BodyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KobitaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Home_main"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Abclearn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
